@@ -1,0 +1,43 @@
+@media (prefers-color-scheme: dark) {
+    #body {
+        background: #111111;
+        color: #f4f4f4;
+    }
+
+    .logo {
+        color: #f4f4f4;
+    }
+
+    header>div>a{
+        color: #f4f4f4;
+    }
+
+    .card, .post, .comment, .main-post {
+        border: 1px solid #f4f4f4;
+    }
+
+    #auth-form, #register-form {
+        border: 1px solid #f4f4f4;
+    }
+
+    #auth-form input, #register-form input {
+        border: 1px solid #f4f4f4;
+        background: #111111;
+        color: #f4f4f4;
+    }
+
+    #auth-form button:hover, #register-form button:hover {
+        background: #f4f4f4;
+        color: #111111;
+    }
+
+    #auth-form button:active, #register-form button:active {
+        background: #111111;
+        color: #f4f4f4;
+        border: 1px solid #f4f4f4;
+    }
+
+    #auth-form a:hover, #register-form a:hover, .approve {
+        color: #f4f4f4;
+    }
+}
