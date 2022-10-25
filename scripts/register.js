@@ -1,6 +1,6 @@
 const registerForm = document.getElementById("register-form")
 
-if (registerForm) registerForm.addEventListener("submit", async (e) => {
+registerForm.addEventListener("submit", async (e) => {
     e.preventDefault()
 
     const name = document.getElementById("name").value

@@ -1,6 +1,6 @@
 const authForm = document.getElementById("auth-form")
 
-if (authForm) authForm.addEventListener("submit", async (e) => {
+authForm.addEventListener("submit", async (e) => {
     e.preventDefault()
 
     const login = document.getElementById("login").value
